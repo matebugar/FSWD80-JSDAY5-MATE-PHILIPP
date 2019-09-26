@@ -1,0 +1,187 @@
+body {
+  width: 1100px;
+  margin: auto; 
+}
+
+.main {
+  background-color: white; }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  background-color: #dce1e3;
+  height: 150px; }
+
+#headerlogo {
+  padding-left: 35px;
+  padding-top: 5px;
+  padding-right: 8px;
+}
+
+.login {
+  font-size: 24px;
+  padding-right: 22px;
+  font-style: italic;
+  font-weight: bold;
+    font-family: 'Mansalva', cursive;
+}
+
+#shoppingCart {
+ font-size: 20px;
+ font-style: italic;
+ display: flex;
+ justify-content: space-around;
+  font-family: 'Mansalva', cursive;
+}
+
+ .headtitle {
+  font-size: 38px;
+  padding-right: 44px;
+  text-shadow: 3px 1px black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  font-style: italic;
+ }
+
+.nav {
+  background-color: black;
+  list-style-type: none;
+  padding: 10px 24px;
+  margin: 0;
+  font-size: 22px; }
+
+.nav li {
+  display: inline-block;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px; }
+
+.nav li a {
+  color: white;
+  text-decoration: none; 
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+}
+
+.nav li a:hover {
+  background-color: lightgrey;
+  color: black;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px; 
+}
+
+  .mainPicture {
+    margin-top: 20px;
+  }
+
+  .imageContainer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.top-left {
+  position: absolute;
+  top: 130px;
+  left: 80px;
+  color: black;
+  font-size: 45px;
+  font-style: italic;
+  text-shadow: 2px 1px black;
+}
+
+.article1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.articlebox {
+  display:  flex;
+  justify-content: space-around;
+  margin-left: 140px;
+}
+.article1 div {
+  margin-right: 12px;
+  margin-bottom: 12px;
+  padding-right: 45px;
+ }
+
+.article1 [type=button] {
+  background-color: black;
+  color: white;
+  width: 250px;
+  height: 60px;
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Mansalva', cursive;
+  margin: 0;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-top: 15px; 
+  border-radius: 12px;
+}
+
+.article1 [type=button]:hover {
+  background-color: white;
+  color: black;
+}
+
+.article1 [type=button]:before {
+  content: "Add to the basket!";
+}
+
+.article1 [type=button]:hover:before {
+  content: "Dont be shy!";
+}
+
+.articlebox div p {
+font-style: italic;
+font-weight: bold;
+font-size: 24px;
+font-family: 'Amatic SC', cursive;
+}
+
+.article1 img {
+  width: 270px;
+  height: 220px;
+  margin: 0;
+  padding: 0; }
+
+ footer {
+  background-color: black;
+  margin-top: 30px; }
+
+footer p {
+  padding-bottom: 5px;
+  color: white;
+  text-align: center;
+  font-size: 20px; }
+
+.navfooter {
+  height: 38px;
+  list-style-type: none;
+  background-color: black;
+  font-size: 18px;
+  padding: 10px; 
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  }
+
+.navfooter li {
+  display: inline-block;
+  padding-top: 10px;
+  padding-right: 12px;
+  padding-left: 12px; 
+}
+
+.navfooter li a {
+  color: white;
+  text-decoration: none; }
+
+.navfooter  li a:hover {
+  background-color: lightgrey;
+  color: black;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px; }
