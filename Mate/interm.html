@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title></title>
+</head>
+<body>
+ <script type="text/javascript" src="basic.json"></script>
+<script> 
+
+      var data = [{
+   "uniqueId": "12233",
+   "jobTitle": "Programmer",
+   "firstName": "Name1",
+   "lastName": "Surname1",
+   "salary": 12213, 
+   "emailAddress": "ffdhf@gfg.com",
+},
+{
+   "uniqueId": "4355646",
+   "jobTitle": "fsafs",
+   "firstName": "khkjgfggf",
+   "lastName": "gsgdsg",
+   "salary": 35477, 
+   "emailAddress": "ffdhf@gfg.com"
+},  
+{ 
+   "uniqueId": "4355646",
+   "jobTitle": "Dfssaffsa",
+   "firstName": "dgrezkc",
+   "lastName": "gsgdsg",
+   "salary": 35477, 
+   "emailAddress": "ffdhf@gfg.com"
+}, 
+{ "uniqueId": "4355646",
+   "jobTitle": "Dsfafag",
+   "firstName": "strxcgsd",
+   "lastName": "gsgdsg",
+   "salary": 35477, 
+   "emailAddress": "ffdhf@gfg.com"
+}, 
+{ 
+   "uniqueId": "4355646",
+   "jobTitle": "rqehgwe",
+   "firstName": "fsafgg",
+   "lastName": "gsgdsg",
+   "salary": 35477, 
+   "emailAddress": "ffdhf@gfg.com"
+}, 
+{ 
+   "uniqueId": "4355646",
+   "jobTitle": "gqwqerr",
+   "firstName": "vdsgdsgsd",
+   "lastName": "gsgdsg",
+   "salary": 35477, 
+   "emailAddress": "ffdhf@gfg.com"
+}, ]; 
+
+document.writeln("<h1>Datas</h1>");
+    var i = 0
+    document.writeln("<table border='2'><tr>");
+    for (i = 0; i < data.length; i++) {
+        document.writeln("<td>");
+        document.writeln("<table border='1' width=140 >");
+        document.writeln("<tr><td><b>Unique Id</b></td><td width=70>" + data[i].uniqueId + "</td></tr>");
+        document.writeln("<tr><td><b>Job title</b></td><td width=70>" + data[i].jobTitle + "</td></tr>");
+        document.writeln("<tr><td><b>FirstName</b></td><td width=70>" + data[i].firstName + "</td></tr>");
+        document.writeln("<tr><td><b>LastName</b></td><td width=70>" + data[i].lastName + "</td></tr>");
+        document.writeln("<tr><td><b>Salary</b></td><td width=50>" + data[i].salary + " $"+ "</td></tr>");
+        document.writeln("<tr><td><b>emailAddress</b></td><td width=70>" + data[i].emailAddress +"</td></tr>");
+        document.writeln("</table>");
+        document.writeln("</td>");
+    }
+    document.writeln("</tr></table>");
+
+   
+    </script>
+</body>
+ 
+</html>
