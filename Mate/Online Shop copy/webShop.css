@@ -185,3 +185,8 @@ footer p {
   color: black;
   padding: 5px 10px 5px 10px;
   border-radius: 10px; }
+
+#itemShoppingCart {
+  background: grey;
+  border: 5px double red;
+}
